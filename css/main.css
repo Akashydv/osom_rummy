@@ -1,0 +1,326 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position: relative;
+    height: 7vw;
+}
+.navbar{
+    background-color:#071b31;
+    position: fixed !important;
+    top:0;
+    width: 100%;
+    z-index: 10000;
+}
+.navbar-toggler{
+    margin-right:50px;
+}
+.navbar-toggler-icon{
+    height:1rem !important;
+    width: 1rem !important;
+}
+#logo-img{
+    margin-left: 13vw;
+    width: 7vw;
+    height: 7vw;
+}
+.nav-item .nav-link{
+    font-size: 17px;
+    font-weight: 200;
+    color:white !important;
+    letter-spacing: 1px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.slider{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/banner3.png');
+    background-size: cover;
+    height: 50vw;
+    background-position-y: 3vw;
+    background-position-x: 12vw;
+}
+.slider-text{
+    padding-top:13vw;
+}
+.slider-text h1{
+    font-size: 55px;
+    color:#7D1128;
+    font-weight: 600; 
+}
+.slider-text .changing{
+    color:white;
+    font-size: 55px;
+}
+#download-btn{
+    position: relative;
+    top: 50px;
+    font-size: 22px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    padding: 10px 27px;
+}
+#download-btn:hover{
+    background-color:white;
+    color:black;
+    text-decoration: none;
+}
+
+
+
+.secure-rummy{
+    background: #1c2f66;
+    text-align: center;
+    color: white;
+    padding-bottom: 3vw;
+}
+.secure-rummy .online-players{
+    position: relative;
+    top:2vw;
+    border: none;
+    background-color:#2658a8;
+    font-size: 24px;
+    box-shadow:3px 3px 10px 0px black;
+    color: white !important;
+    font-weight: 700;
+}
+.online-players img{
+    width: 3vw;
+    height: 3vw;
+}
+.carousel-inner{
+    margin: 5vw 0vh 3vw;
+}
+.secure-rummy .image-box{
+    margin-bottom: 2vw;
+}
+.secure-rummy .image-box img{
+    width:15vw;
+    height:15vw;
+}
+.text-box p{
+    margin-top:1.4vw;
+}
+
+
+
+.play-rummy{
+    background-color: black;
+    color: white;
+    padding: 3vw 0px;
+    text-align: center;
+}
+.play-rummy h1{
+    margin: 3vw 0vw;
+}
+.play-rummy p{
+    line-height: 30px;
+    font-size: 17px;
+}
+.play-rummy img{
+    width: 10vw;
+    height: 10vw;
+    padding: 2.7vw;
+    background-color: #2A2B2B;
+    border-radius: 50%;
+    transition: ease-in-out 1s;
+}
+.play-rummy-block p{
+    margin-top: 1.6vw;
+    font-weight: 100;
+}
+.play-rummy img:hover{
+    background-color: #b80405;
+}
+
+
+
+.content{
+    position: relative;
+    color: white;
+    overflow: hidden;
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+}
+.content p{
+    font-size: 24px;
+    font-weight: 200;
+}
+.content .content-row{
+    padding: 7vw 0vw;
+}
+.content::before{
+	content: "";
+	position: absolute;
+	width:100%;
+	top:0;
+	left:0;
+	height:95%;
+	z-index: -2;
+	background: #071b31;
+	transform: skewY(-6deg);
+	transform-origin: left top;
+}
+.content span:first-child{
+    content: "";
+	position: absolute;
+	width:65%;
+	top:32%;
+	left:0%;
+	height:20%;
+	z-index: -2;
+	background: #1c2f66;
+	transform: skewY(10deg);
+	transform-origin: left bottom;
+}
+.content span:nth-child(2){
+    content: "";
+	position: absolute;
+	width:36%;
+	top:19%;
+    left:10%;
+	height:24%;
+    z-index: -2;
+    background: #1c2f66;
+	transform: skewY(0deg);
+    transform-origin: left bottom;
+    border-radius: 35px;
+}
+.content span:nth-child(3){
+    content: "";
+	position: absolute;
+	width:35%;
+	top:48%;
+    left:65%;
+	height:20%;
+    z-index: -2;
+    background:#1c2f66;
+	transform: skewY(10deg);
+	transform-origin: left bottom;
+}
+
+
+.reviews{
+    padding-bottom: 3vw;
+}
+.reviews .carousel{
+    box-shadow: 0px 0px 10px 1px#B9C0DA;
+}
+.reviews h1{
+    font-size: 55px;
+    color: #b80405;
+    font-weight: 700;
+    padding-bottom: 3vw;
+}
+.prev-icon{
+    background-image: url('../images/arrow-left.png');
+    width: 3vw;
+    height:3vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.next-icon{
+    background-image: url('../images/arrow-right.png');
+    width: 3vw;
+    height:3vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.footer{
+    background-color: #1c2f66;
+    padding: 4vw 0px;
+    color: white;
+}
+.footer .second-block {
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.second-block img{
+    width: 10vw;
+    height:10vw;
+}
+.footer h1{
+    font-size: 25px;
+    word-spacing: 3px;
+}
+.footer li{
+    list-style-type: none;
+    font-weight: 600;
+    padding: 6px 0px;
+}
+.footer li a{
+    color: white;
+}
+.small-images img{
+    width: 6vw;
+    height:4vw;
+    margin-bottom: 4px;
+}
+.footer p{
+    font-weight: 700;
+    margin: 2.5vw 0vw 2vw;
+    text-decoration: underline;
+}
+.last-footer{
+    background-color: #071b31;
+    color: white;
+    padding: 12px 0px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.last-footer .follow a{
+    color: white;
+}
+.last-footer .follow i{
+    font-size: 18px;
+    margin-right: 2vw;
+}
+
+@media only screen and (max-width: 575.98px){
+    h1{ font-size: 14px !important;}
+    h4{ font-size: 10px !important;}
+    h5{ font-size: 10px !important;}
+    p{ font-size: 8px !important;}
+    #logo-img{ width:8vw; height:8vw}
+    .nav-link{ font-size: 8px !important; text-align: center;}
+    .slider-text{ padding-top: 17vw;}
+    .changing{ font-size: 15px !important;}
+    #download-btn{ padding: 3px 8px; font-size: 7px; top:10px;}
+    .secure-rummy .slide{ padding: 5vw 0vw 4vw;}
+    .secure-rummy .image-box img{ width: 11vw; height: 11vw}
+    .secure-rummy .carousel-indicators li{ width:11px !important;}
+    .secure-rummy .online-players, #random-number{ font-size: 11px !important; margin-bottom: 5vw;}
+    .secure-rummy .online-players img{ width: 5vw; height: 5vw;}
+    .play-rummy p{ font-size: 8px !important; line-height: 16px;}
+    .play-rummy .row{ margin-top: 7vw !important;}
+    .content p{ margin: 0px;}
+    .footer li{ padding: 0px;}
+    .footer li a{ font-size: 8px;}
+    .last-footer{ padding: 0px;}
+    .last-footer p{ font-size: 9px !important; padding:0px !important; padding-top: 4px !important;}
+    .last-footer .follow span, .last-footer .follow i{ font-size: 9px !important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+    h1{ font-size: 28px !important;}
+    h4{ font-size: 18px !important;}
+    h5{ font-size: 21px !important;}
+    p{ font-size: 15px !important;}
+    #logo-img{ width:8vw; height:8vw}
+    .nav-link{ font-size: 12px !important; text-align: center;}
+    .slider-text{ padding-top: 17vw;}
+    .changing{ font-size: 29px !important;}
+    #download-btn{ padding: 6px 17px !important; font-size: 13px; top:27px;}
+    .secure-rummy .slide{ padding: 5vw 0vw 4vw;}
+    .footer li{ padding: 0px;}
+    .footer li a{ font-size:11px;}
+    .last-footer{ padding: 5px 0px;}
+    .last-footer p{ font-size: 11px !important; text-align: left !important; padding-top: 7px !important;}
+    .last-footer .follow span, .last-footer .follow i{ font-size: 11px !important;}
+}
