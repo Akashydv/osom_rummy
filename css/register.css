@@ -1,0 +1,148 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/banner-ps2.jpg');
+    height: 33vw;
+    background-size: cover;
+    background-position-y: -36vw;
+}
+.banner h1{
+    padding-top:13vw;
+    padding-left:4vw;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+.banner p{
+    padding-top:1vw;
+    padding-left:4vw;
+    color: white;
+    font-weight: 700;
+    font-size: 30px; 
+}
+#head{
+    display: block;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 70px;
+    background-image: linear-gradient(to right, #aa0505, #fbca03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px white;
+}
+.btn{
+    background-color: #5c6bc0;
+    border: 0px;
+    color: white;
+    font-weight:600;
+    margin: 15px 0px;
+}
+.input-text {
+    padding-bottom: 2vw;
+}
+.error{
+    color:red;
+}
+label{
+    font-weight:600;	
+}
+a{
+    font-weight:600;
+    color: #5c6bc0;
+}
+.main-head{
+    font-size: 40px;
+    padding-bottom:30px;
+    letter-spacing:-3px;
+    font-weight:700;
+    color:#5c6bc0;
+    text-align: center;
+}
+.left-head img{
+    width:100%;
+    margin-top: 2vw;
+}
+.left-lists ul li{
+    list-style: none;
+    margin: 0vw 0vw 1vw 5vw;
+    background: url('../images/check-fill-small.png') left no-repeat;
+    padding-left: 2.5vw;
+}
+.right-lists ul li{
+    margin:0vw 0vw 1vw 1.4vw;
+    list-style: none;
+    background: url('../images/checked-fill.png') left no-repeat;
+    padding-left: 2.5vw;
+    color: white;
+}
+.left-lists span, .right-lists span{
+    display: block;
+}
+.left-lists .head, .right-lists .head{
+    font-size: 17px;
+    font-weight: 600;
+    padding-top:1.6vw;
+}
+.left-lists .para, .right-lists .para{
+    font-size: 14px;
+}
+form{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+    opacity:0.9;
+    padding: 2vw 5vw 5vw;
+    padding-bottom: 10px;
+    color: black;
+}
+.form-div{
+    padding: 3vw;
+}
+.form-div h1{
+    font-weight: 600;
+    word-spacing: 4px;
+    font-size: 28px;
+}
+.form-head-span{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: red;
+}
+.right-main-block img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 575.98px){
+    .banner h1{ padding-top: 7vw !important; font-size: 19px;}
+    #head{ font-size: 20px !important;}
+    p{ font-size: 11px !important;}
+    .form-head{ font-size: 13px !important;}
+    .form-head-span{ font-size: 10px !important;}
+    label{ font-size: 10px !important;}
+    .form-control{ height:25px !important;}
+    .btn{ font-size: 11px !important;}
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
+    .banner h1{ padding-top: 9vw !important; font-size: 22px;}
+    #head{ font-size: 23px !important;}
+    p{ font-size: 13px !important;}
+    .form-head{ font-size: 18px !important;}
+    .form-head-span{ font-size: 11px !important;}
+    label{ font-size: 11px !important;}
+    .form-control{ height:27px !important;}
+    .btn{ font-size: 13px !important;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+    .banner h1{ padding-top: 9vw !important; font-size: 30px;}
+    #head{ font-size: 31px !important;}
+    p{ font-size: 18px !important;}
+    .form-head{ font-size: 24px !important;}
+    .form-head-span{ font-size: 18px !important;}
+    label{ font-size: 17px !important;}
+    .form-control{ height:33px !important;}
+    .btn{ font-size: 16px !important;}
+}

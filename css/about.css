@@ -1,0 +1,34 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+.banner{
+    background-image:  url('../images/about.jpg');
+    height: 31vw;
+    background-size: cover;
+}
+.banner h1{
+    padding-top:12vw;
+    padding-left:7vw;
+    font-size: 5rem;
+    font-weight: 800;
+    background-image: linear-gradient(to right,#232526, #414345);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.7px white;
+}
+.banner p{
+    width:38vw;
+    line-height: 2vw;
+    padding-top: 1.5vw;
+    padding-left: 7vw;
+    font-size: 1.3rem;
+    color: white;
+}
+.content p{
+    white-space: pre-line;
+    font-size: 19px;
+    line-height: 2.5vw;
+}
